@@ -34,6 +34,8 @@ const TrackingSchema = new mongoose.Schema({
 
 const Tracking = mongoose.model("Tracking", TrackingSchema);
 
+
+
 // API to receive location data
 app.post("/api/location", async (req, res) => {
     try {
